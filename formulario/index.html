@@ -24,25 +24,25 @@
     <form action="#" name="cadastro pessoal" method="#">
     <section class="container">
         <div class="forms">
-            <label>Nome:</label> 
+            <label for="nome">Nome:</label> 
             <input type="text" required>
-            <label>E-mail:</label>
-            <input type="email">
+            <label for="email">E-mail:</label>
+            <input type="email" required>
         </div>
 
         <div class="forms">
-            <label>Nascimento:</label>
-            <input type="date">
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" required>
         </div class="forms">
 
         <div class="forms">
-            <label>RG:</label>
-            <input type="text">
+            <label for="rg">RG:</label>
+            <input type="text" required>
         </div>
 
         <div class="forms">
-            <label>CPF:</label>
-            <input type="text" placeholder="123.456.789-00">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="123.456.789-00" required>
         </div>
     </section>
     </fieldset>
@@ -51,19 +51,19 @@
     <legend>Endereço</legend>
     <section class="container">
         <div class="forms">
-            <label>Rua:</label> 
-            <input type="text">
-            <label>Número:</label>
-            <input type="number">
+            <label for="rua">Rua:</label> 
+            <input type="text" required>
+            <label for="numero">Número:</label>
+            <input type="number" required>
         </div>
 
         <div class="forms">
-            <label>Bairro:</label>
-            <input type="text">
+            <label for="bairro">Bairro:</label>
+            <input type="text" required>
         </div>
 
         <div class="forms">
-            <label>Estado:</label>
+            <label for="estado">Estado:</label>
             <select name="Estado" id="1">
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
@@ -96,13 +96,13 @@
         </div>
 
         <div class="forms">
-            <label>Cidade:</label>
-            <input type="text">
+            <label for="cidade">Cidade:</label>
+            <input type="text" required>
         </div>
 
         <div class="forms">
-            <label>CEP:</label>
-            <input type="text">
+            <label for="cep">CEP:</label>
+            <input type="text" required>
         </div>
     </section>
     </fieldset>
@@ -111,28 +111,28 @@
     <legend>Login</legend>
     <section class="container">
         <div class="forms">
-            <label>Imagem de perfil:</label>
-            <input type="file">
+            <label for="imagem">Imagem de perfil:</label>
+            <input type="file" required>
         </div>
 
         <div class="forms">
-            <label>Login de usuário:</label>
-            <input type="text">
+            <label for="login">Login de usuário:</label>
+            <input type="text" required>
         </div>
 
         <div class="forms">
-            <label>Senha:</label>
-            <input type="password">
+            <label for="senha">Senha:</label>
+            <input type="password" required>
         </div>
 
         <div class="forms">
-            <label>Confirme sua senha:</label>
-            <input type="password">
+            <label for="corfirmaçao">Confirme sua senha:</label>
+            <input type="password" required>
         </div>
     </section>
     </fieldset>
     <section class="term">
-        <input class="checkbox" type="checkbox"> 
+        <input class="checkbox" type="checkbox" required> 
         <p>Eu li e concordo com o</p> 
         <a href="#" class="termo-de-uso" target="_blank"> Termo de Uso</a>
     </section>
